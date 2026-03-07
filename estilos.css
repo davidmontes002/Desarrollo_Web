@@ -24,7 +24,6 @@ nav ul li {
 }
 
 nav ul li a {
-    align-items: center;
     display: block;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -51,4 +50,26 @@ nav ul li a:hover {
 .logo-derecha3 {
     float: right;
     margin-left: 20px;
+}
+
+#mision-vision {
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    background-color: #f4f4f9;
+}
+
+.bloque-mision,
+.bloque-vision {
+    flex: 1;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bloque-mision h2,
+.bloque-vision h2 {
+    color: #2c3e50;
+    margin-top: 0;
 }
