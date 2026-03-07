@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #f9f9f9;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+nav ul {
+    align-items: center;
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #ffc001f4;
+    border-radius: 20px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    align-items: center;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+nav ul li a:hover {
+    background-color: #0537ffbf;
+    color: rgb(255, 255, 255);
+}
+
+.logo-derecha1 {
+    float: right;
+    margin-left: 20px;
+}
+
+.logo-derecha2 {
+    float: right;
+    margin-left: 20px;
+}
+
+.logo-derecha3 {
+    float: right;
+    margin-left: 20px;
+}
