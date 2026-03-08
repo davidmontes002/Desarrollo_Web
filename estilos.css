@@ -1,6 +1,7 @@
 body {
+    background-color: #f0f2f5;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 nav {
@@ -54,22 +55,129 @@ nav ul li a:hover {
 
 #mision-vision {
     display: flex;
-    gap: 30px;
-    padding: 100px;
-    background-color: #f4f4f9;
+    gap: 20px;
+    padding: 50px;
+    background-color: #f4f4f995;
+    align-items: flex-start;
 }
 
-.bloque-mision,
-.bloque-vision {
-    flex: 1;
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    gap: 20px;
+}
+
+.contenedor_2 {
+    display: flex;
+    gap: 20px;
     padding: 30px;
     border-radius: 15px;
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.bloque-mision,
+.bloque-vision {
+    flex: 1;
+}
+
 .bloque-mision h2,
 .bloque-vision h2 {
     color: #0839bead;
     margin-top: 0;
+}
+
+.bloque-menu {
+    flex: 1;
+    min-width: 200px;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #004a99;
+    align-self: flex-start;
+}
+
+.menu-vertical {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-vertical li {
+    margin-bottom: 15px;
+}
+
+.menu-vertical a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.menu-vertical a:hover {
+    background-color: #f1c40f;
+    color: #000;
+}
+
+
+.examenes {
+    background-color: rgba(255, 255, 255, 0.656);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.examenes h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #2c3e50;
+    text-align: left;
+}
+
+.cuadricula {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.exa1,
+.exa2,
+.exa3,
+.exa4,
+.exa5,
+.exa6,
+.exa7,
+.exa8,
+.exa9,
+.exa10 {
+    display: block;
+    padding: 12px 25px;
+    background-color: #004a99;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    border: 2px solid #004a99;
+}
+
+.exa1:hover,
+.exa2:hover,
+.exa3:hover,
+.exa4:hover,
+.exa5:hover,
+.exa6:hover,
+.exa7:hover,
+.exa8:hover,
+.exa9:hover,
+.exa10:hover {
+    background-color: #f1c40f;
+    color: #333;
+    border-color: #f1c40f;
+    transform: translateY(-3px);
 }
