@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background-color: #ffffff;
+    background-color: #ffffff00;
     overflow: hidden;
     margin-top: 10px;
 }
@@ -14,10 +14,10 @@ nav ul {
     align-items: center;
     list-style-type: none;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     overflow: hidden;
     background-color: #ffc001f4;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 nav ul li {
@@ -57,7 +57,7 @@ nav ul li a:hover {
     display: flex;
     gap: 20px;
     padding: 50px;
-    background-color: #f4f4f995;
+    background-color: #f4f4f9;
     align-items: flex-start;
 }
 
@@ -84,7 +84,7 @@ nav ul li a:hover {
 
 .bloque-mision h2,
 .bloque-vision h2 {
-    color: #0839bead;
+    color: #0839bef2;
     margin-top: 0;
 }
 
