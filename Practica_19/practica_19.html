@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 19 - Salidas en JS</title>
+    <link rel="stylesheet" href="estilos19.css">
+</head>
+
+<body>
+
+    <nav style="margin-bottom: 30px;">
+        <a href="../index.html" class="btn-regresar">Volver al Menú Principal</a>
+    </nav>
+
+    <h1>Formas de Salida de Datos en JavaScript</h1>
+    <p>Demostración de salidas usando información de perfil.</p>
+
+    <div class="contenedor">
+        <h2>1. Usando innerHTML</h2>
+        <div id="salida-html" style="color: #0056b3; font-weight: bold;"></div>
+    </div>
+
+    <div class="contenedor">
+        <h2>2. Usando window.alert()</h2>
+        <button onclick="mostrarAlerta()">Ver Intereses</button>
+    </div>
+
+    <div class="contenedor">
+        <h2>3. Usando console.log()</h2>
+        <p style="font-style: italic;">Presiona F12 y revisa la consola para ver este mensaje oculto.</p>
+    </div>
+
+    <div class="contenedor">
+        <h2>4. Usando document.write()</h2>
+        <p>El siguiente texto es inyectado directamente por el archivo JavaScript:</p>
+
+        <script src="scripts19.js"></script>
+    </div>
+
+</body>
+
+</html>

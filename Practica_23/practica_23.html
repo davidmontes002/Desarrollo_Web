@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 23 - IMC Mujer</title>
+    <link rel="stylesheet" href="estilos23.css">
+</head>
+
+<body>
+
+    <nav style="margin-bottom: 30px;">
+        <a href="../index.html" class="btn-regresar">Volver al Menú Principal</a>
+    </nav>
+
+    <h1>Calculadora de IMC para Mujeres</h1>
+    <p>Ingresa tu peso y estatura para conocer tu Índice de Masa Corporal y tu grado actual.</p>
+
+    <div class="contenedor">
+        <form id="imc-form" onsubmit="event.preventDefault(); calcularIMC();">
+            <div class="grupo-input">
+                <label for="peso">Peso (en kilogramos):</label>
+                <input type="number" id="peso" step="0.1" placeholder="Ej. 65.5" required>
+            </div>
+
+            <div class="grupo-input">
+                <label for="estatura">Estatura (en metros):</label>
+                <input type="number" id="estatura" step="0.01" placeholder="Ej. 1.65" required>
+            </div>
+
+            <button type="submit" class="btn-calcular">Calcular mi IMC</button>
+        </form>
+
+        <div id="resultado" class="caja-resultado">
+            <em>Esperando datos...</em>
+        </div>
+    </div>
+
+    <script src="scripts23.js"></script>
+</body>
+
+</html>

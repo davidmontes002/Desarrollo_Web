@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 22 - Fórmula General</title>
+    <link rel="stylesheet" href="estilos22.css">
+</head>
+
+<body>
+
+    <nav style="margin-bottom: 30px;">
+        <a href="../index.html" class="btn-regresar">Volver al Menú Principal</a>
+    </nav>
+
+    <h1>Calculadora de la Fórmula General</h1>
+    <p>Ingresa los valores de <strong>a</strong>, <strong>b</strong> y <strong>c</strong> para calcular las raíces (x1 y
+        x2) de la ecuación cuadrática.</p>
+
+    <div class="contenedor">
+        <form id="formula-form" onsubmit="event.preventDefault(); calcularRaices();">
+            <div class="grupo-input">
+                <label for="valorA">Valor de a:</label>
+                <input type="number" id="valorA" placeholder="Ej. 1" required>
+            </div>
+
+            <div class="grupo-input">
+                <label for="valorB">Valor de b:</label>
+                <input type="number" id="valorB" placeholder="Ej. -5" required>
+            </div>
+
+            <div class="grupo-input">
+                <label for="valorC">Valor de c:</label>
+                <input type="number" id="valorC" placeholder="Ej. 6" required>
+            </div>
+
+            <button type="submit" class="btn-calcular">Calcular x1 y x2</button>
+        </form>
+
+        <div id="resultado" class="caja-resultado">
+            <em>Esperando valores...</em>
+        </div>
+    </div>
+
+    <script src="scripts22.js"></script>
+</body>
+
+</html>
