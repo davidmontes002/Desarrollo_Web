@@ -7,42 +7,89 @@
     <title>Menú de Prácticas - Desarrollo Web</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f2f5;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f6f8;
             margin: 0;
-            padding: 40px;
+            padding: 40px 20px;
             text-align: center;
         }
 
         h1 {
-            color: #004a99;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 40px;
         }
 
         .menu-practicas {
             list-style: none;
             padding: 0;
-            max-width: 400px;
+            max-width: 600px;
+            /* Ancho ajustado para que las barras se vean bien */
             margin: 0 auto;
-        }
-
-        .menu-practicas li {
-            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            /* Apila los botones en una sola columna (filas) */
+            gap: 15px;
+            /* Espacio entre cada barra */
         }
 
         .menu-practicas a {
-            display: block;
-            padding: 15px;
-            background-color: #ffc001f4;
-            color: #000;
+            display: flex;
+            justify-content: space-between;
+            /* Texto a la izquierda, flecha a la derecha */
+            align-items: center;
+            padding: 20px 25px;
+            color: white;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 10px;
-            transition: background-color 0.3s, color 0.3s;
+            font-size: 1.1em;
+            border-radius: 8px;
+            transition: transform 0.2s, filter 0.2s;
+            text-align: left;
         }
 
+        /* Efecto al pasar el mouse */
         .menu-practicas a:hover {
-            background-color: #0537ffbf;
-            color: white;
+            transform: scale(1.02);
+            filter: brightness(1.1);
+        }
+
+        /* Colores de las barras basados en tu imagen */
+        .menu-practicas li:nth-child(1) a {
+            background-color: #589b9f;
+        }
+
+        .menu-practicas li:nth-child(2) a {
+            background-color: #7fbf65;
+        }
+
+        .menu-practicas li:nth-child(3) a {
+            background-color: #f7c353;
+        }
+
+        .menu-practicas li:nth-child(4) a {
+            background-color: #f07b55;
+        }
+
+        .menu-practicas li:nth-child(5) a {
+            background-color: #c07398;
+        }
+
+        .menu-practicas li:nth-child(6) a {
+            background-color: #589b9f;
+        }
+
+        /* Repite el primero */
+
+        /* Estilo de la flecha */
+        .arrow {
+            font-size: 1.2em;
+            font-weight: normal;
+            opacity: 0.8;
         }
     </style>
 </head>
@@ -53,12 +100,42 @@
     <p>Desarrollo Web - David Montes</p>
 
     <ul class="menu-practicas">
-        <li><a href="practica_18/practica_18.html">Práctica 18: Página FIM UAS</a></li>
-        <li><a href="practica_19/practica_19.html">Práctica 19: Salidas JavaScript</a></li>
-        <li><a href="practica_20/practica_20.html">Práctica 20: Operaciones Aritméticas</a></li>
-        <li><a href="practica_21/practica_21.html">Práctica 21: Formularios y Operaciones</a></li>
-        <li><a href="practica_22/practica_22.html">Práctica 22: Fórmula General</a></li>
-        <li><a href="practica_23/practica_23.html">Práctica 23: Calculadora IMC</a></li>
+        <li>
+            <a href="practica_18/practica_18.html">
+                <span>Práctica 18: Página FIM UAS</span>
+                <span class="arrow">></span>
+            </a>
+        </li>
+        <li>
+            <a href="practica_19/practica_19.html">
+                <span>Práctica 19: Salidas JavaScript</span>
+                <span class="arrow">></span>
+            </a>
+        </li>
+        <li>
+            <a href="practica_20/practica_20.html">
+                <span>Práctica 20: Operaciones Aritméticas</span>
+                <span class="arrow">></span>
+            </a>
+        </li>
+        <li>
+            <a href="practica_21/practica_21.html">
+                <span>Práctica 21: Formularios y Operaciones</span>
+                <span class="arrow">></span>
+            </a>
+        </li>
+        <li>
+            <a href="practica_22/practica_22.html">
+                <span>Práctica 22: Fórmula General</span>
+                <span class="arrow">></span>
+            </a>
+        </li>
+        <li>
+            <a href="practica_23/practica_23.html">
+                <span>Práctica 23: Calculadora IMC</span>
+                <span class="arrow">></span>
+            </a>
+        </li>
     </ul>
 
 </body>
