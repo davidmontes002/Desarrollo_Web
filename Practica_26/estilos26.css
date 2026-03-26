@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 40px;
+}
+
+h1 {
+    color: #004a99;
+}
+
+.btn-regresar {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ffc001;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-regresar:hover {
+    background-color: #0537ff;
+    color: white;
+}
+
+.panel-control {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.grupo-input {
+    margin-bottom: 15px;
+}
+
+.grupo-input label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.grupo-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.btn-generar {
+    width: 100%;
+    padding: 12px;
+    background-color: #f07b55;
+    /* Naranja para diferenciarla */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.btn-generar:hover {
+    background-color: #d9623c;
+}
+
+/* Cuadrícula responsiva para las tablas */
+.cuadricula-tablas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.tarjeta-tabla {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #f07b55;
+    /* Borde superior naranja */
+}
+
+.tarjeta-tabla h3 {
+    margin-top: 0;
+    color: #f07b55;
+    text-align: center;
+    border-bottom: 2px dashed #eee;
+    padding-bottom: 10px;
+}
+
+.tarjeta-tabla ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tarjeta-tabla li {
+    padding: 5px 0;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.tarjeta-tabla li:nth-child(even) {
+    background-color: #f9f9f9;
+}

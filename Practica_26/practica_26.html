@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 26 - Tablas Dinámicas</title>
+    <link rel="stylesheet" href="estilos26.css">
+</head>
+
+<body>
+
+    <nav style="margin-bottom: 30px;">
+        <a href="../index.html" class="btn-regresar">Volver al Menú Principal</a>
+    </nav>
+
+    <h1>Generador de Tablas Dinámicas</h1>
+    <p>Ingresa un número entero positivo. El sistema generará las tablas de multiplicar desde el 1 hasta el número que
+        especifiques.</p>
+
+    <div class="panel-control">
+        <div class="grupo-input">
+            <label for="numeroLimite">¿Hasta qué tabla deseas generar?</label>
+            <input type="number" id="numeroLimite" min="1" placeholder="Ej. 5">
+        </div>
+
+        <button class="btn-generar" onclick="generarTablas()">Generar Tablas</button>
+    </div>
+
+    <div id="contenedor-tablas" class="cuadricula-tablas"></div>
+
+    <script src="scripts26.js"></script>
+</body>
+
+</html>
