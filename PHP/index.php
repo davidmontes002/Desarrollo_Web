@@ -27,6 +27,7 @@
         <li><a href="practica_35.php"><span>Práctica 35: Convertidor de Tiempo</span><span class="arrow">></span></a></li>
         <li><a href="practica_36.php"><span>Práctica 36: CRUD PHP y MySQL</span><span class="arrow">></span></a></li>
         <li><a href="practica_37.php"><span>Práctica 37: Sesiones en PHP</span><span class="arrow">></span></a></li>
+        <li><a href="practica_final.php" style="background-color: #2c3e50;"><span>Práctica Final: Sistema de Préstamos</span><span class="arrow">></span></a></li>
     </ul>
 
 </body>

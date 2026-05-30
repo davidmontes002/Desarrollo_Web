@@ -1,0 +1,169 @@
+/* estilos_final.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0D0D0D;
+    /* Fondo oscuro */
+    color: #f5f6f8;
+    /* Texto claro para contraste */
+    margin: 40px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    color: #D9B504;
+    /* Amarillo para los títulos */
+}
+
+/* --- ESTILOS DEL MENÚ FINAL --- */
+.contenedor-modulos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.modulo-seccion {
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(217, 181, 4, 0.2);
+    /* Sombra ligera dorada */
+    min-width: 300px;
+}
+
+.menu-final {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-final a {
+    display: block;
+    padding: 15px;
+    background-color: #F25C05;
+    /* Naranja medio */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.menu-final a:hover {
+    background-color: #F27405;
+    /* Naranja claro */
+}
+
+.btn-destacado {
+    background-color: #F23005 !important;
+}
+
+/* Rojo */
+.btn-destacado:hover {
+    background-color: #F25C05 !important;
+}
+
+.btn-reporte {
+    background-color: #D9B504 !important;
+    color: #0D0D0D !important;
+}
+
+.btn-reporte:hover {
+    background-color: #F27405 !important;
+    color: white !important;
+}
+
+.btn-regresar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #D9B504;
+    color: #0D0D0D;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* --- ESTILOS PARA LOS CRUDS --- */
+.crud-contenedor {
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.formulario-crud {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.formulario-crud input[type="text"] {
+    padding: 10px;
+    border: 1px solid #F27405;
+    border-radius: 4px;
+    background-color: #0D0D0D;
+    color: white;
+    flex-grow: 1;
+}
+
+.formulario-crud button {
+    padding: 10px 20px;
+    background-color: #F25C05;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario-crud button:hover {
+    background-color: #F27405;
+}
+
+/* Tabla de datos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    border-bottom: 1px solid #F25C05;
+    text-align: left;
+}
+
+th {
+    background-color: #F23005;
+    color: white;
+}
+
+.btn-editar {
+    background-color: #D9B504;
+    color: #0D0D0D;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.btn-eliminar {
+    background-color: #F23005;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
